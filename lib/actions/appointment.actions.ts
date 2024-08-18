@@ -92,7 +92,7 @@ export const updateAppointment = async ({
       throw new Error("Appointment not found");
     }
     const smsMessage = `
-    Hi, its Carepulse.
+    Hi, its Quikare.
       ${
         type === "schedule"
           ? `Your appointment has been scheduled for ${

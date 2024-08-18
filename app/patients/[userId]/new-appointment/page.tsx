@@ -32,7 +32,7 @@ export default async function NewAppointment({
             patientId={patient.$id}
           />
 
-          <p className="copyright mt-10 py-12">© 2024 CarePulse</p>
+          <p className="copyright mt-10 py-12">© 2024 Quikare</p>
         </div>
       </section>
       <Image
