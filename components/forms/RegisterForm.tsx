@@ -118,7 +118,7 @@ const RegisterForm = ({ user }: { user: User }) => {
           control={form.control}
           name="name"
           label="Full name"
-          placeholder="John Doe"
+          placeholder="Alister Fernandes"
           iconSrc="/assets/icons/user.svg"
           iconAlt="user"
         />
@@ -128,7 +128,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="email"
             label="Email"
-            placeholder="johndoe@gmail.com"
+            placeholder="alister@gmail.com"
             iconSrc="/assets/icons/email.svg"
             iconAlt="email"
           />
@@ -137,7 +137,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="phone"
             label="Phone number"
-            placeholder="{555} 123-4567"
+            placeholder="{+91} 123-4567-890"
           />
         </div>
         <div className="flex flex-col gap-6 xl:flex-row">
@@ -180,7 +180,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="address"
             label="Address"
-            placeholder="14th Street, New York"
+            placeholder="IC Colony, Borivali"
           />
           <CustomFormField
             fieldType={FormFieldType.INPUT}
@@ -203,7 +203,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="emergencyContactNumber"
             label="Emergency Contact number"
-            placeholder="{555} 123-4567"
+            placeholder="{+91} 123-4567-890"
           />
         </div>
 
@@ -242,7 +242,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="insuranceProvider"
             label="Insurance Provider"
-            placeholder="BlueCross BlueShield Services"
+            placeholder="LIC"
           />
           <CustomFormField
             fieldType={FormFieldType.INPUT}

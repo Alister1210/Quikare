@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 import { type ClassValue } from "clsx";
 import { getPatient } from "@/lib/actions/patient.actions";
-import * as Sentry from '@sentry/nextjs'
+import * as Sentry from "@sentry/nextjs";
 
 export default async function NewAppointment({
   params: { userId },
@@ -19,11 +19,11 @@ export default async function NewAppointment({
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[860px] flex-1 justify-between">
           <Image
-            src="/assets/icons/logo-full.svg"
+            src="/assets/icons/qk-logo.svg"
             height={1000}
             width={1000}
             alt="patient"
-            className="mb-12 h-10 w-fit"
+            className="mb-4 h-24 w-fit"
           />
 
           <AppointmentForm
