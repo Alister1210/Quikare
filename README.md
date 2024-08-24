@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quikare
 
-## Getting Started
+Quikare is a comprehensive healthcare management platform designed to streamline the process of booking and managing medical appointments. The platform offers a user-friendly interface for patients to book appointments with healthcare providers quickly and efficiently. Additionally, Quikare includes an admin dashboard that allows administrators to manage appointments, including scheduling, rescheduling, and canceling appointments as needed.
 
-First, run the development server:
+## Features
+
+- User-Friendly Booking System: Patients can easily search for available doctors and book appointments directly through the platform.
+
+- Admin Dashboard: Provides administrators with tools to manage appointments, including options to schedule, reschedule, and cancel bookings, ensuring efficient clinic management.
+
+- Notifications: Integrated with Twilio for messaging, Quikare ensures that patients and healthcare providers receive timely notifications and reminders about upcoming appointments or changes.
+
+## Tech Stack
+
+**Next.js** : The platform is built using Next.js, a powerful React framework that allows for server-side rendering and easy routing.
+
+**Vercel** : Quikare is deployed using Vercel, ensuring a fast and reliable hosting environment.
+
+**Appwrite** : Used as the backend database, Appwrite provides secure and scalable data management for user and appointment information.
+
+**Sentry** : For error tracking and website management, Sentry is utilized to monitor the platform's performance and ensure smooth operation.
+
+## Get Started
+
+To set up Quikare locally, follow these steps:
+
+- Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/your-username/quikare.git
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd quikare
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Install dependencies:
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+- Set up environment variables for Appwrite, Twilio, and Sentry as per your configuration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+  npm run dev
+```
 
-## Deploy on Vercel
+- Open your browser and go to http://localhost:3000 to see the platform in action.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Vercel: Quikare is deployed using Vercel, ensuring a fast and reliable hosting environment.
+
+## Authors
+
+- [@Alister](https://www.github.com/Alister1210)
+
+## Demo
+
+![Quikare Demo](./demo.mp4)
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Alister1210)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/alister1210)
