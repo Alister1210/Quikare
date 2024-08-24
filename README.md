@@ -63,7 +63,7 @@ Vercel: Quikare is deployed using Vercel, ensuring a fast and reliable hosting e
 
 ## Demo
 
-![Quikare Demo](./demo.mp4)
+![Quikare Demo](https://www.linkedin.com/posts/alister1210_healthcare-techforgood-nextjs-activity-7233147910345900032-zJZ9?utm_source=share&utm_medium=member_desktop)
 
 ## 🔗 Links
 
